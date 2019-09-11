@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AppLogin</string>
+    <string name="forget"><u>Forget Password?</u></string>
+    <string name="creat_now"><u>Creat now</u></string>
+</resources>
