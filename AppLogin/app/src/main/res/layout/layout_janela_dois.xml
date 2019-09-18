@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/background"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".JanelaDois_Activity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -36,10 +36,21 @@
             android:drawableRight="@drawable/login"
             android:hint=" Username"
             android:inputType="textPersonName"
+            android:padding="10dp"
             android:textColorHint="@color/fonte"
-            android:textSize="30sp"
-            android:padding="10dp"/>
+            android:textSize="30sp" />
 
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/borda"
+            android:drawableRight="@drawable/email"
+            android:hint=" Email"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:textColorHint="@color/fonte"
+            android:textSize="30sp" />
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -48,50 +59,30 @@
             android:drawableRight="@drawable/password"
             android:hint=" Password"
             android:inputType="textPassword"
+            android:padding="10dp"
             android:textColorHint="@color/fonte"
-            android:textSize="30sp"
-            android:padding="10dp"/>
+            android:textSize="30sp" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/borda"
+            android:drawableRight="@drawable/password"
+            android:hint=" Password confirm"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:textColorHint="@color/fonte"
+            android:textSize="30sp" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/bordabotao"
-            android:text="Sign In"
+            android:text="Sign Up"
             android:textColor="@color/fonte"
             android:textSize="25sp"
             android:padding="10dp"
             android:layout_marginBottom="20dp"/>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginBottom="80dp"
-            android:text="@string/forget"
-            android:textColor="@color/fonte"
-            android:textSize="20sp"/>
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:text="Don't have an account? "
-                android:textColor="@color/fonte"
-                android:textSize="20sp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:text="@string/creat_now"
-                android:textColor="@color/fonte"
-                android:textSize="20sp"
-                android:backgroundTint="@color/fonte"/>
-        </LinearLayout>
     </LinearLayout>
 </LinearLayout>
