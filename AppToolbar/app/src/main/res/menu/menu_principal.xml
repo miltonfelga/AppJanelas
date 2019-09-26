@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/mCadastrar"
+        android:icon="@drawable/save"
+        android:title="Cadastrar"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mAlterar"
+        android:icon="@drawable/update"
+        android:title="Alterar"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mExcluir"
+        android:icon="@drawable/delete"
+        android:title="Excluir"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mBuscar"
+        android:icon="@drawable/search"
+        android:title="Buscar"
+        app:showAsAction="ifRoom" />
+</menu>
