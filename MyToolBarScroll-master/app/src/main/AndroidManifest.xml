@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="br.com.etecia.appbandio">
+    package="br.com.local.mytoolbarscroll">
 
     <application
         android:allowBackup="true"
@@ -10,11 +10,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".Activity_Janela_Dois"
-            android:theme="@style/SemBarra"></activity>
-        <activity
             android:name=".MainActivity"
-            android:theme="@style/SemBarra">
+            android:theme="@style/temaSemBarra">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

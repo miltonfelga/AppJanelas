@@ -6,7 +6,8 @@
     android:layout_height="match_parent"
     android:background="@color/colorAccent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".Activity_Janela_Dois">
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -35,25 +36,24 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="0"
-                android:text="Login"
+                android:text="Sign Up"
                 android:textColor="@color/fonte"
                 android:textSize="20dp" />
 
         </LinearLayout>
 
-        <TextView
+        <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="100dp"
             android:layout_marginBottom="100dp"
-            android:text="Bandio"
-            android:textColor="@color/fonte"
-            android:textSize="60dp" />
+            android:background="@color/fonte"
+            android:src="@mipmap/photo" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
             android:orientation="horizontal">
 
             <ImageView
@@ -67,7 +67,31 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:hint="Username"
+                android:hint="name"
+                android:inputType="textPersonName"
+                android:textColorHint="@color/fonte"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0"
+                android:src="@drawable/email" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="email"
                 android:inputType="textPersonName"
                 android:textColorHint="@color/fonte"
                 android:textSize="15sp" />
@@ -78,6 +102,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
             android:orientation="horizontal">
 
             <ImageView
@@ -102,6 +127,30 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0"
+                android:src="@drawable/gift" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Birthday"
+                android:inputType="textPassword"
+                android:textColorHint="@color/fonte"
+                android:textSize="15sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginLeft="80dp"
             android:layout_marginTop="50dp"
             android:layout_marginRight="80dp"
@@ -113,30 +162,8 @@
                 android:layout_gravity="center"
                 android:background="@drawable/caixa"
                 android:padding="9dp"
-                android:src="@drawable/logiin" />
+                android:src="@drawable/login" />
         </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:orientation="horizontal">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Don't have an account? "
-                android:textColor="@color/fonte" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/signup"
-                android:textColor="@color/fonte" />
-        </LinearLayout>
-
 
     </LinearLayout>
 </LinearLayout>
-
-
