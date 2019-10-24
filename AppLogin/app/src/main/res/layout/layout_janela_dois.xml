@@ -15,15 +15,15 @@
         android:orientation="vertical">
 
         <ImageView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="150dp"
-            android:src="@drawable/planta" />
+            android:src="@drawable/planta1" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginBottom="20dp"
+            android:layout_marginBottom="10dp"
             android:text="Apps Login"
             android:textColor="@color/fonte"
             android:textSize="40dp" />
@@ -31,35 +31,35 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="20dp"
+            android:layout_marginBottom="10dp"
             android:background="@drawable/borda"
             android:drawableRight="@drawable/login"
             android:hint=" Username"
             android:inputType="textPersonName"
-            android:padding="10dp"
+            android:padding="5dp"
             android:textColorHint="@color/fonte"
             android:textSize="30sp" />
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="20dp"
+            android:layout_marginBottom="10dp"
             android:background="@drawable/borda"
             android:drawableRight="@drawable/email"
             android:hint=" Email"
             android:inputType="textEmailAddress"
-            android:padding="10dp"
+            android:padding="5dp"
             android:textColorHint="@color/fonte"
             android:textSize="30sp" />
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="20dp"
+            android:layout_marginBottom="10dp"
             android:background="@drawable/borda"
             android:drawableRight="@drawable/password"
             android:hint=" Password"
             android:inputType="textPassword"
-            android:padding="10dp"
+            android:padding="5dp"
             android:textColorHint="@color/fonte"
             android:textSize="30sp" />
         <EditText
@@ -70,7 +70,7 @@
             android:drawableRight="@drawable/password"
             android:hint=" Password confirm"
             android:inputType="textPassword"
-            android:padding="10dp"
+            android:padding="5dp"
             android:textColorHint="@color/fonte"
             android:textSize="30sp" />
 
@@ -81,7 +81,7 @@
             android:text="Sign Up"
             android:textColor="@color/fonte"
             android:textSize="25sp"
-            android:padding="10dp"
+            android:padding="5dp"
             android:layout_marginBottom="20dp"/>
 
     </LinearLayout>
